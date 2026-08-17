@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To do List 📝</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container" >
+                <!-- <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+
+<!-- A To-Do List web application is built using HTML, CSS, and JavaScript.
+It allows users to add new tasks using an input field and an add button.
+Users can view all added tasks in a structured list format.
+Each task has a delete option to remove it from the list.
+Users can mark tasks as completed by clicking on them.
+Completed tasks are shown with a line-through (strike-through) effect using CSS.
+The application uses JavaScript for DOM manipulation and event handling.
+All tasks are stored in the browser using localStorage.
+Data remains saved even after refreshing or closing the browser.
+On page load, tasks are automatically retrieved from localStorage and displayed.
+The project demonstrates core front-end concepts like interactivity and data persistence. -->
